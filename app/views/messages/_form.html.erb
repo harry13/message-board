@@ -1,5 +1,4 @@
-
-<%= form_for(@message) do |f| %>
+<%= form_for(@message,class: "form-group") do |f| %>
   <% if @message.errors.present? %>
     <div class="alert alert-danger">
       <%= alert %>

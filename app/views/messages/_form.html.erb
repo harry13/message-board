@@ -20,6 +20,13 @@
 </div>
 
 <div class="form-group">
+  <p>年齢:</p>
+  <p>
+    <%= f.text_field :age, class: "form-horizontal", placeholder: "年齢" %>
+  </p>
+</div>
+
+<div class="form-group">
   <p>内容:</p>
   <p><%= f.text_area :body, class: "form-control", placeholder: "内容" %></p>
   <%= f.submit class: "btn btn-sm btn-primary" %>
